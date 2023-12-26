@@ -7,7 +7,7 @@ pipeline {
     stage('Build') {
     steps {
         echo 'Building..'
-        Build: ./gradlew assemble
+        Build: ./gradlew build
         }
     }
     stage('Test') {
